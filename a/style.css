@@ -413,7 +413,8 @@
     margin-left: 10px;
   }
 
-  .experience .title time {
+  .experience .
+time {
     display: block;
     font-style: italic;
     margin-left: 10px;
@@ -424,7 +425,7 @@
     padding: 7px 0 7px 15px;
   }
 
-  .experience .title li {
+  .title li {
     padding: 7px 0 7px 8px;
   }
   
