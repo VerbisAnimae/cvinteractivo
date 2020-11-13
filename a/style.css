@@ -399,7 +399,7 @@
   }
   
   .experience  a {
-    font-weight: 400;
+    /*font-weight: 400;*/
     color: #DE4140;
   }
   
@@ -415,6 +415,10 @@
   
   .experience li {
     padding: 7px 0 7px 15px;
+  }
+
+  .experience .title li {
+    padding: 7px 0 7px 8px;
   }
   
   #blur_1 {
