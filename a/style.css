@@ -409,9 +409,10 @@
   }
   
   .experience time {
-    display: inline-block;
+    display: block;
     font-style: italic;
-    margin-left: 10px;
+    /*margin-left: 10px;*/
+    font-size: medium;
   }
 
   .experience .title time {
@@ -419,6 +420,7 @@
     font-style: italic;
     margin-left: 10px;
     text-align: right;
+    font-size: medium;
   }
 
   .experience li .title  {
