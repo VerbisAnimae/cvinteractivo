@@ -412,6 +412,13 @@
     font-style: italic;
     margin-left: 10px;
   }
+
+  .experience .title time {
+    display: block;
+    font-style: italic;
+    margin-left: 10px;
+    text-align: right;
+  }
   
   .experience li {
     padding: 7px 0 7px 15px;
