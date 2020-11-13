@@ -173,6 +173,9 @@
     right: 50px;
   }
   
+  .social ul {
+      padding-left: inherit;
+}
   .social .icon,
   .social .text {
     margin-right: 6px;
