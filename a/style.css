@@ -412,7 +412,7 @@
     display: block;
     font-style: italic;
     /*margin-left: 10px;*/
-    font-size: medium;
+    font-size: 12px;
   }
 
   .experience .title time {
@@ -420,7 +420,7 @@
     font-style: italic;
     margin-left: 10px;
     text-align: right;
-    font-size: medium;
+    font-size: 12px;
   }
 
   .experience li .title  {
@@ -485,7 +485,7 @@
     display: inline-block;
     font-style: italic;
     margin-left: 10px;
-    font-size: medium;
+    font-size: 12px;
   }
   
   .portfolio li {
