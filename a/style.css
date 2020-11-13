@@ -426,7 +426,7 @@ time {
   }
 
   .experience .title li {
-    padding: 7px 0 7px 7px;
+    padding: 7px 0 7px 7px;!important;
   }
   
   #blur_1 {
