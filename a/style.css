@@ -485,6 +485,7 @@
     display: inline-block;
     font-style: italic;
     margin-left: 10px;
+    font-size: medium;
   }
   
   .portfolio li {
