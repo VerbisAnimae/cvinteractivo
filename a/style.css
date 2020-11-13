@@ -413,8 +413,7 @@
     margin-left: 10px;
   }
 
-  .experience .
-time {
+  .experience .time {
     display: block;
     font-style: italic;
     margin-left: 10px;
@@ -426,7 +425,7 @@ time {
   }
 
   .experience .title li {
-    padding: 7px 0 7px 7px;!important;
+    padding: 7px 0 7px 0px;
   }
   
   #blur_1 {
