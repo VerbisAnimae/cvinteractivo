@@ -656,7 +656,7 @@ nav a:hover, nav a:active {
 
     nav a#pull:after {
         content:"";
-        background: url('nav-icon.png') no-repeat;
+        background: url('https://user-images.githubusercontent.com/69265917/99882297-9b893180-2c1f-11eb-8c48-8e58f6fa780a.png') no-repeat;
         width: 30px;
         height: 30px;
         display: inline-block;
