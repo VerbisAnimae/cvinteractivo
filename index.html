@@ -11,11 +11,31 @@
 
   gtag('config', 'UA-137787255-1');
 </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>
+$(function() {
+    var pull = $('#pull');
+    menu = $('nav ul');
+    menuHeight = menu.height();
+
+    $(pull).on('click', function(e) {
+        e.preventDefault();
+        menu.slideToggle();
+    });
+});
+
+$(window).resize(function(){
+    var w = $(window).width();
+    if(w > 320 && menu.is(':hidden')) {
+        menu.removeAttr('style');
+    }
+});
+</script>
     <meta charset="utf-8">
     <title>Raúl Fernández Molina - CV interactivo</title>
     <base href="" />
 
-    <meta name="viewport" content="width=device-width">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <meta property="og:title" content="Raúl Fernández Molina - CV interactivo"/>
     <meta property="og:image" content="https://user-images.githubusercontent.com/69265917/89499478-61a33500-d7c0-11ea-9be6-e5f4d4bbe25c.png"/>
     <meta property="og:description" content="Me considero un tipo con suerte, ya que trabajo haciendo lo que más me gusta: escribir y generar ideas. ¿Por qué no echáis un vistazo a mi trayectoria? Estaré más que encantado de recibir noticias vuestras."/>
@@ -102,7 +122,16 @@
    <script charset="UTF-8" src="https://s-eu-1.pushpushgo.com/js/5f3c21e1ac78cb28a36533aa.js" async="async"></script>
 </head>
 <body>
-<div class="main">
+<nav>
+    <ul>
+        <li><a href="#experience">Experiencia</a></li>
+        <li><a href="#portfolio">Portafolio</a></li>
+        <li><a href="https://verbisanimae.github.io/cvinteractivo/en/">English version</a></li>
+        <br clear="all" />
+    </ul>
+    <a id="pull" href="#">Menu</a>
+</nav>
+    <div class="main">
     <div class="wrap">
 
         <div class="main-site">
@@ -277,7 +306,7 @@
             </div>
 
             <div class="main-content">
-                <section class="experience">
+                <section class="experience" id="experience">
                     <h2>
                         <span class="icon icon-lab"></span><span class="text">Experiencia</span>
                     </h2>
@@ -424,7 +453,7 @@
                         </li>
                     </ul-->
                 </section>
-                <section class="portfolio">
+                <section class="portfolio" id="portfolio">
                         <h2>
                             <span class="icon icon-briefcase"></span><span class="text">Portafolio <small>(Actualizado a noviembre de 2020)</small></span>
                         </h2>
