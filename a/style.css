@@ -576,6 +576,9 @@ nav {
     background: #666;
     position: relative;
     border-bottom: solid 1px #DDD;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 nav ul {
