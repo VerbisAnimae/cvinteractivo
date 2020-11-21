@@ -12,6 +12,9 @@
   gtag('config', 'UA-137787255-1');
 </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<!-- jQuery Modal -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />    
 <script>
 $(function() {
     var pull = $('#pull');
@@ -146,6 +149,7 @@ function myFunction() {
 <body>
 <nav>
     <ul>
+        <li><a href="#about" rel="modal:open">Sobre mí</a></li>
         <li><a href="#experience">Experiencia</a></li>
         <li><a href="#portfolio">Portafolio</a></li>
         <li><a href="https://verbisanimae.github.io/cvinteractivo/en/">English version</a></li>
@@ -634,7 +638,13 @@ function myFunction() {
         </div>
     </div>
 </div>
+<!-- Modal HTML embedded directly into document -->
+<div id="about" class="modal">
+  <p>Con más de 10 años de experiencia, he pasado prácticamente por todas las áreas de digital; desde la creación pura de contenido, al comercio electrónico, desarrollo web y localización, o «digital performance», área en la cual me he centrado durante estos últimos meses -control y gestión de etiquetado mediante Adobe Launch y Adobe DTM, así como automatización mediante Python y otras herramientas-. Del mismo modo, colaboro como «Project Manager» y asesor técnico en muchos de los proyectos digitales que van surgiendo en la empresa.
 
+He centrado la mayor parte de mi trayectoria profesional en el mundo de la electrónica de consumo, aunque también he colaborado en proyectos dentro de los sectores de automoción, farmacéutica y consultoría.</p>
+  <a href="#" rel="modal:close">Cerrar</a>
+</div>
 <canvas id="blur_1"></canvas>
 <script type="text/javascript">
     document.body.onclick = function(e){
