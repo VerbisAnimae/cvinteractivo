@@ -588,12 +588,13 @@ nav ul {
 nav li {
     display: inline;
     float: left;
+    width: 200px;
 }
 
 nav a {
     color: #FFF;
     display: inline-block;
-    width: 100px;
+    width: 200px;
     text-align: center;
     line-height: 40px;
 }
