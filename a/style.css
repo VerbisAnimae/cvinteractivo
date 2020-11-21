@@ -566,7 +566,9 @@
 .clear {
     *zoom: 1;
 }
-
+a.close-modal {
+    color: #e8a52a;
+}
 a#pull {
     display: none;
 }
