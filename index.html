@@ -16,6 +16,12 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />    
 <script>
+     $("#custom-close").modal({
+  closeClass: 'icon-remove',
+  closeText: 'X'
+});
+    </script>    
+<script>
 $(function() {
     var pull = $('#pull');
     menu = $('nav ul');
@@ -643,7 +649,6 @@ function myFunction() {
   <p>Con más de 10 años de experiencia, he pasado prácticamente por todas las áreas de digital; desde la creación pura de contenido, al comercio electrónico, desarrollo web y localización, o «digital performance», área en la cual me he centrado durante estos últimos meses -control y gestión de etiquetado mediante Adobe Launch y Adobe DTM, así como automatización mediante Python y otras herramientas-. Del mismo modo, colaboro como «Project Manager» y asesor técnico en muchos de los proyectos digitales que van surgiendo en la empresa.</p>
     </br>
 <p>He centrado la mayor parte de mi trayectoria profesional en el mundo de la electrónica de consumo, aunque también he colaborado en proyectos dentro de los sectores de automoción, farmacéutica y consultoría.</p>
-<a href="#close-modal" rel="modal:close" class="close-modal icon-remove">x</a>
 </div>
 <canvas id="blur_1"></canvas>
 <script type="text/javascript">
