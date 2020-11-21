@@ -566,9 +566,9 @@
 .clear {
     *zoom: 1;
 }
-a.close-modal {
-    color: #e8a52a;
-}
+.modal a.close-modal[class*="icon-"] {
+    border: 1px solid #fff;
+        }
 a#pull {
     display: none;
 }
