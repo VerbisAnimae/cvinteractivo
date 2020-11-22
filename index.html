@@ -640,59 +640,11 @@ function myFunction() {
 </div>
 <!-- Modal HTML embedded directly into document -->
 <div id="about" class="modal">
-  <p>Con más de 10 años de experiencia, he pasado prácticamente por todas las áreas de digital; desde la creación pura de contenido, al comercio electrónico, desarrollo web y localización, o «digital performance», área en la cual me he centrado durante estos últimos meses -control y gestión de etiquetado mediante Adobe Launch y Adobe DTM, así como automatización mediante Python y otras herramientas-. Del mismo modo, colaboro como «Project Manager» y asesor técnico en muchos de los proyectos digitales que van surgiendo en la empresa.</p>
+  <p>Con más de <strong>10 años de experiencia</strong>, he pasado prácticamente por todas las áreas de <strong>digital</strong>; desde la creación pura de <strong>contenido</strong>, al <strong>comercio electrónico</strong>, <strong>desarrollo web y localización</strong>, o <strong>«digital performance»</strong>, área en la cual me he centrado durante estos últimos meses —control y gestión de etiquetado mediante Adobe Launch y Adobe DTM, así como automatización mediante <strong>Python</strong> y otras herramientas—. Del mismo modo, colaboro como <strong>«Project Manager»</strong> y asesor técnico en muchos de los proyectos digitales que van surgiendo en la empresa.</p>
     </br>
-<p>He centrado la mayor parte de mi trayectoria profesional en el mundo de la electrónica de consumo, aunque también he colaborado en proyectos dentro de los sectores de automoción, farmacéutica y consultoría.</p>
+<p>He centrado la mayor parte de mi trayectoria profesional en el mundo de la <strong>electrónica de consumo</strong>, aunque también he colaborado en proyectos dentro de los sectores de <strong>automoción</strong>, <strong>farmacéutica</strong> y <strong>consultoría</strong>.</p>
 </div>
-<style type="text/css">
-  .modal a.close-modal[class*="icon-"] {
-    top: -10px;
-    right: -10px;
-    width: 20px;
-    height: 20px;
-    color: #fff;
-    line-height: 1.25;
-    text-align: center;
-    text-decoration: none;
-    text-indent: 0;
-    background: #000;
-    border: 2px solid #fff;
-    -webkit-border-radius: 26px;
-    -moz-border-radius: 26px;
-    -o-border-radius: 26px;
-    -ms-border-radius: 26px;
-    -moz-box-shadow:    1px 1px 5px rgba(0,0,0,0.5);
-    -webkit-box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
-    box-shadow:         1px 1px 5px rgba(0,0,0,0.5);
-  }
-</style>
-<script type="text/javascript" charset="utf-8">
-  $(function() {
 
-    function log_modal_event(event, modal) {
-      if(typeof console != 'undefined' && console.log) console.log("[event] " + event.type);
-    };
-
-    $(document).on($.modal.BEFORE_BLOCK, log_modal_event);
-    $(document).on($.modal.BLOCK, log_modal_event);
-    $(document).on($.modal.BEFORE_OPEN, log_modal_event);
-    $(document).on($.modal.OPEN, log_modal_event);
-    $(document).on($.modal.BEFORE_CLOSE, log_modal_event);
-    $(document).on($.modal.CLOSE, log_modal_event);
-    $(document).on($.modal.AFTER_CLOSE, log_modal_event);
-    $(document).on($.modal.AJAX_SEND, log_modal_event);
-    $(document).on($.modal.AJAX_SUCCESS, log_modal_event);
-    $(document).on($.modal.AJAX_COMPLETE, log_modal_event);
-
-    $('a[href="#about"]').click(function(event){
-      event.preventDefault();
-      $(this).modal({
-        closeClass: 'icon-remove',
-        closeText: 'X'
-      });
-    });
-});
-    </script>    
 <canvas id="blur_1"></canvas>
 <script type="text/javascript">
     document.body.onclick = function(e){
