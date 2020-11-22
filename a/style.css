@@ -16,12 +16,12 @@
   .clearfix {
     overflow: hidden;
   }
-a[experience] {
+a[#experience] {
   padding-top: 40px;
   margin-top: -40px;
   display: inline-block; /* required for webkit browsers */
 }
-a[portfolio] {
+a[#portfolio] {
   padding-top: 40px;
   margin-top: -40px;
   display: inline-block; /* required for webkit browsers */
