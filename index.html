@@ -35,16 +35,16 @@ $(window).resize(function(){
 });
 </script>
 <script>
-    // When the user scrolls the page, execute myFunction
+    // se ejecuta la función al hacer scroll
 window.onscroll = function() {myFunction()};
 
-// Get the navbar
+// defino navbar
 var navbar = document.getElementById("nav");
 
-// Get the offset position of the navbar
+// defino posición offset de la navbar
 var sticky = navbar.offsetTop;
 
-// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+// añado o quito la clase sticky según haya scroll o no
 function myFunction() {
   if (window.pageYOffset >= sticky) {
     navbar.classList.add("sticky")
@@ -54,23 +54,23 @@ function myFunction() {
 }
 </script>
 <script>
-// The function actually applying the offset
+// aplico la predicción offset en el menú con 40px
 function offsetAnchor() {
   if (location.hash.length !== 0) {
     window.scrollTo(window.scrollX, window.scrollY - 40);
   }
 }
 
-// Captures click events of all <a> elements with href starting with #
+// capturo evento click en cualquier ancla con a href
 $(document).on('click', 'a[href^="#"]', function(event) {
-  // Click events are captured before hashchanges. Timeout
-  // causes offsetAnchor to be called after the page jump.
+
+  // llamo a la función
   window.setTimeout(function() {
     offsetAnchor();
   }, 0);
 });
 
-// Set the offset when entering page with hash present in the url
+// establezco de nuevo el offset cuando se carga la página con el ancla
 window.setTimeout(offsetAnchor, 0);
 </script>
     <meta charset="utf-8">
